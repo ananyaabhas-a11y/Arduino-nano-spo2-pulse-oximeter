@@ -2,7 +2,8 @@
 
 A pulse oximeter (SpO2 + heart rate) built around an Arduino Nano and a MAX30102 sensor, with a custom 4-layer PCB designed in KiCad. College project.
 
-![PCB layout](Desktop/Ananya Engineering/pcb_layout.png)
+![PCB layout](docs/images/pcb_layout.png)
+
 
 ## Overview
 SpO2 is the percentage of hemoglobin carrying oxygen (normal is about 95-100%). The MAX30102 shines red and infrared light through the fingertip, and the ratio of the pulsating (AC) to steady (DC) components of each signal is used to estimate SpO2. The same signal gives heart rate.
